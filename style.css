@@ -1,0 +1,203 @@
+body h2 p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./bg-intro-desktop.png);
+    background-color: hsl(0, 77%, 71%);
+    width: 1440px;
+    height: 80vh;
+    padding: 3em;
+}
+
+main{
+    display: flex; 
+    padding: 3em;
+     justify-content: space-around; 
+     font-family: "Poppins";
+    
+}
+
+.box-right{
+    flex-basis: 55%;
+    height: 95vh;
+}
+
+form{
+    width: 70%;
+    height: 70%;
+    padding: 40px;
+    margin-bottom: 2em;
+    color: gray;
+    background-color: white;
+    border-radius: 20px;
+}
+
+fieldset{
+    padding-left: 40px; 
+    padding-right: 40px;
+    border: none ;
+}
+
+#fname #lname :hover {
+    font-weight: 600;
+   border: 2px solid hsl(249, 10%, 26%);
+} 
+
+.box-left {
+  align-self: center;
+    color: whitesmoke;
+    flex-basis: 40%;
+    font-family: "Poppins";
+    margin-top: 20px;
+    line-height: 0.5em;
+    font-size: medium;
+}
+
+.box-left h1 {
+    line-height: 2px; 
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+p{
+    line-height: 0.5em;
+}
+
+#fname {
+    padding: 17px;
+    margin-top: 20px;
+    padding-left: 15px ;
+    width: 80%;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#lname {
+        padding: 17px;
+        padding-left: 15px ;
+        width: 80%;
+        border: 1px solid hsl(246, 25%, 77%);
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    #email {
+        padding: 17px;
+        padding-left: 15px ;
+        width: 80%;
+        border: 1px solid hsl(246, 25%, 77%);
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    #password {
+        padding: 20px;
+        padding-left: 15px ;
+        width: 80%;
+        border: 1px solid hsl(246, 25%, 77%);
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    #button {
+        
+            padding: 17px;
+            margin-top: 20px;
+            padding-left: 15px ;
+            font-size: medium;
+            width: 90%;
+            border: 1px solid hsl(246, 25%, 77%);
+            border-radius: 10px;
+            font-weight: 600;
+            color: whitesmoke;
+            background-color:hsl(154, 59%, 51%) ;
+        }   
+
+        #consent  {
+            font-size: small;
+        }
+        a {
+            color: hsl(0, 77%, 71%);
+        }
+ 
+
+ .box-right  #title {
+     
+     margin-bottom: 20px;
+     font-size: medium;
+     width: 75%;
+     border-radius: 10px;
+     padding-left: 50px;
+    padding: 18px;
+    color: whitesmoke;
+    background-color:hsl(248, 32%, 49%);
+}
+
+@media screen and (max-width: 600px){ 
+
+    body {
+        width: 375px;
+        padding: 1em;
+    }
+    main{
+        display: block   !important;
+        justify-content: space-between;
+    }
+
+    .box-left {
+        align-self: center;   
+          font-size: 15px;     
+          margin-top: 10px;
+          line-height: 0.8em;
+          /* font-size: small; */
+          margin-bottom: 20px;
+      }
+
+      .box-left h1 {
+        line-height: 0px;  
+        font-size: 25px;
+        font-weight: 800;
+        padding-bottom: 20px;
+    }
+   
+    p{
+            line-height: 20px;
+     }
+
+     .box-right  #title {
+         margin-top: 55px;
+
+     }
+
+    form {
+            width: 65%;
+            height: 60%;
+            padding: 0px;
+            padding-top: 10px;
+            padding-right: 55px;
+            padding-left: 10px;
+            padding-bottom: 60px;
+            
+    }
+
+
+    fieldset{
+        padding-left: 0px; 
+        padding-right: 30px;
+    }
+
+    #button {
+        
+        padding: 17px;
+        margin-top: 0px;
+        padding-left: 15px ;
+        font-size: medium;
+        width: 95%;
+    }
+    
+}
+
